@@ -32,6 +32,8 @@ const completeFolderTree = function (folderList) {
       // 여기에서 작업하세요.
       event.target.parentNode.querySelector(".lower-folder").style.display =
         "block";
+      event.target.childNode.querySelector(".lower-folder").style.display =
+        "none";
       console.log(event.target);
       console.log(event.target.parentNode);
       console.log(event.target.parentNode.querySelector(".lower-folder"));
